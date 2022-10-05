@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML & CSS Cheat Sheet</title>
+        <link rel="stylesheet" href="./styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
+    </head>
+<body>
+<!--HTML Table-->
+<header><h1>HTML & CSS Cheat Sheet</h1></header>
+    
+<section>  
+    <h2>HTML Boilerplate Tags</h2>
+<table class="html_table">
+    <th class="html_header">
+        Tag
+    </th>
+    <th class="html_header">Description</th>
+    <th class="html_header">Use</th>
+    <tr >
+        <td class="tag"> < ! DOCTYPE html > </td>
+        <td>Declares version of html for browser to interpret.</td>
+        <td>Used once at beginning of document.</td>
+    </tr>
+    <tr >
+        <td class="tag"> < html > </td>
+        <td>Establishes language being used is html.</td>
+        <td>Opens & closes document.</td>
+    <tr >
+        <td class="tag"> < head > </td>
+        <td>Non-visible data that contains information like titles and links.</td>
+        <td>Used only in the opening section of a document.</td>
+    </tr>
+    <tr >
+        <td class="tag"> < title > </td>
+        <td>Name that will appear in the window or tab.</td>
+        <td>Used only within the < head > section of the document.</td>
+    </tr>
+    <tr >
+        <td class="tag"> < body > </td>
+        <td>Establishes the main body of code. Content that is visible on the webpage.</td>
+        <td>Opens & closes document. Used within < html > tags. </html> </td>
+</table>
+<br>
+<h2>Semantic HTML Tags</h2>
+<table class="html_table">
+    <th class="html_header">
+        Tag
+    </th>
+    <th class="html_header">Description</th>
+    <th class="html_header"></thclass>Use</th>
+    <tr >
+        <td class="tag"> < nav > </td>
+        <td>Navigation section</td>
+        <td>Contains links to navigate a document.</td>
+    </tr>
+    <tr >
+        <td class="tag"> < header > </td>
+        <td>Specifies a header for a document or section.</td>
+        <td>Can be used throughout a document any time there is a header</td>
+    </tr>
+    <tr >
+        <td class="tag"> < main > </td>
+        <td>Specifies the main content of a document</td>
+        <td>Used at open and close of document.</td>
+    </tr>
+    <tr >
+        <td class="tag"> < section > </td>
+        <td>Defines a section in a document.</td>
+        <td>Used for a thematic grouping of content, typically with a heading. (EX: Chapters, introduction, news items, contact info...</td>
+    </tr>
+    <tr >
+        <td class="tag"> < article > </td>
+        <td>Specifies independent, self-contained content</td>
+        <td>An article should make sense on its own, and it should be possible to distribute it independently from the rest of the web site. (EX: blog/forum posts, comments, newspaper articles...</td>
+    </tr>
+    <tr >
+        <td class="tag"> < p > </td>
+        <td>Defines a paragraph.</td>
+        <td>Used to separate out chunks of information.</td>
+    </tr>
+    <tr >
+        <td class="tag"> < aside > </td>
+        <td>Defines some content aside from the content it is placed in (like a sidebar)</td>
+        <td>Aside content should be indirectly related to the surrounding content.</td>
+    </tr>
+    <tr >
+        <td class="tag"> < footer > </td>
+        <td>Defines a footer for a document or section</td>
+        <td>Typically contains author info, copyright info, contact info, sitemap, links back to top, related documents...</td>
+    </tr>
+    </table>
+</section>
+<section>
+    <h2>CSS Box Model</h2>
+    <table class="html_table">
+        <th class="html_header">Property</th>
+        <th class="html_header">Description</th>
+        <th class="html_header">How to Use</th>
+        <tr>
+            <td class="tag">Content</td>
+            <td>The content of the box, where text and images appear </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="tag">Padding</td>
+            <td>The padding is the spacing between the content and the border (edge of the content).</td>
+            <td>padding: xpx; (reads clockwise starting at top)</td>
+        </tr>
+        <tr>
+            <td class="tag">Border</td>
+            <td>A border that goes around the padding and content</td>
+            <td>border: xpx solid/dotted/etc color;</td> 
+        </tr>
+        <tr>
+            <td class="tag">Margin</td>
+            <td>The margin is the space around the outside of the border. The larger the margin, the more space between our element and the elements around it. </td>
+            <td>margin: xpx; (reads clockwise starting at top)</td>
+        </tr>
+    </table>
+</section>
+
+</body>
+</html>
